@@ -38,6 +38,9 @@ PRODUCT_COPY_FILES += \
 # Firmware
 $(call inherit-product, vendor/realme/firmware/porsche/BoardConfigVendor.mk)
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.brightness.low.gamma=true
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
