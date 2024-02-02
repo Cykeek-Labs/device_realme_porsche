@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_porsche.mk
+    $(LOCAL_DIR)/voltage_porsche.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_porsche-user \
-    lineage_porsche-userdebug \
-    lineage_porsche-eng
+    voltage_porsche-user \
+    voltage_porsche-userdebug \
+    voltage_porsche-eng
