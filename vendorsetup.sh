@@ -6,6 +6,7 @@ declare -A repositories=(
     ["hardware/oplus"]="https://github.com/Cykeek-Labs/hardware_oplus fourteen"
     ["kernel/realme/sm8350"]="https://github.com/Cykeek-Labs/kernel_realme_sm8350 A14"
     ["vendor/realme/firmware"]="https://gitlab.com/kajirokasuna/proprietary_vendor_realme_firmware.git uvite-porsche"
+    ["vendor/oplus/camera"]="https://gitlab.com/pjgowtham/proprietary_vendor_oplus_camera lineage-21"
 )
 
 # Initialize an array to store non-existing folders
