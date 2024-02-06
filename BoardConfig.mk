@@ -11,6 +11,7 @@ DEVICE_PATH := device/realme/porsche
 
 # Display
 TARGET_SCREEN_DENSITY := 480
+TARGET_HAS_HDR_DISPLAY := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
