@@ -65,7 +65,8 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    PorscheCarrierConfigOverlay
 
 # Power
 PRODUCT_COPY_FILES += \
