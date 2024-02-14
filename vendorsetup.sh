@@ -2,11 +2,20 @@
 
 # Define an associative array with folder paths as keys and repository URLs as values
 declare -A repositories=(
-    ["vendor/realme/porsche"]="https://gitea.com/Cykeek/vendor_realme_porsche test"
+    ["vendor/realme/porsche"]="https://github.com/Cykeek-Labs/vendor_realme_porsche A14"
+    ["vendor/oneplus/sm8350-common"]="https://github.com/Cykeek-Labs/vendor_oneplus_sm8350-common A14"
     ["hardware/oplus"]="https://github.com/Cykeek-Labs/hardware_oplus fourteen"
-    ["kernel/realme/sm8350"]="https://github.com/Cykeek-Labs/kernel_realme_sm8350 A14"
+    ["kernel/realme/sm8350"]="https://github.com/Cykeek-Labs/kernel_realme_sm8350 main"
     ["vendor/realme/firmware"]="https://gitlab.com/kajirokasuna/proprietary_vendor_realme_firmware.git uvite-porsche"
+    ["device/oneplus/sm8350-common"]="https://github.com/Cykeek-Labs/device_oneplus_sm8350-common lineage-21"
 )
+
+# Remove Kernel_headers before initializing
+kernel_header="hardware/google/pixel/kernel_headers"
+
+if [ -d "$kernel_header" ]; then
+    rm -rf $kernel_header
+fi
 
 # Initialize an array to store non-existing folders
 missing_folders=()
