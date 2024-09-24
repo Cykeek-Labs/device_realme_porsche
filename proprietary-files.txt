@@ -892,26 +892,27 @@ odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 odm/lib64/vendor.qti.esepowermanager@1.0.so
 odm/lib64/vendor.qti.esepowermanager@1.1.so
 
-# Fingerprint
-odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
-odm/bin/init.oplus.fingerprints.sh
-odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
-odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/lib64/hw/fingerprint.goodix_G3.default.so
-odm/lib64/anc.hal.so
-odm/lib64/libgf_hal_G3.so
-odm/lib64/libolc_vnd.so
-odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
-odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so
-odm/vendor/firmware/ancap64.b00
-odm/vendor/firmware/ancap64.b01
-odm/vendor/firmware/ancap64.b02
-odm/vendor/firmware/ancap64.b03
-odm/vendor/firmware/ancap64.b04
-odm/vendor/firmware/ancap64.b05
-odm/vendor/firmware/ancap64.b06
-odm/vendor/firmware/ancap64.b07
-odm/vendor/firmware/ancap64.mdt
+# Fingerprint (C.22)
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service|a0d9615c363538f77630b58c003e135ffdf29ee9
+odm/bin/init.oplus.fingerprints.sh|950befd6f64d4055bf47ab066a0a1e0080e6191e
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|5eead2eabcc060ce5d400a779f1e8482732b7012
+odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml|78ca4f56ed1f5dd48c186718718fd9513629851e
+odm/lib64/anc.hal.so|e5ccddbc1cc6343ec95d00858fda264ab813b30b
+odm/lib64/hw/fingerprint.goodix_G3.default.so|4df769a4282164a789cd5c3003920fa2fe39b208
+odm/lib64/libgf_hal_G3.so|075e6cf59e3b9640bc6a9f0ae9c6983ce181f1c8
+odm/lib64/libolc_vnd.so|7ec00a916bb04dcc1b2b0d13344620a812104598
+odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so|6e3b0bbf85420f5675cce2000e258f3f6192dd49
+odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so|f63b35e2478bad4fae7cacf5e8ef06c69e69ea80
+odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so|b210036f6e30ea8d78a920c4ff7872c20c0c304a
+odm/vendor/firmware/ancap64.b00|a1d5e2e92b74ef4e6587d4d14eb656adc970d900
+odm/vendor/firmware/ancap64.b01|db09a8d00e9a466f8bd0828497f4544641969fd7
+odm/vendor/firmware/ancap64.b02|96ead207121c4afa7411bf3bc59490a803af1123
+odm/vendor/firmware/ancap64.b03|fa2e7a2ebaccfe2240f6590977eb76fc283ecee7
+odm/vendor/firmware/ancap64.b04|40e2ca4e7f57852c199aea7e5788d4390cbe5ab4
+odm/vendor/firmware/ancap64.b05|63d8ae6cc6b685d0ae4902a5c5c77949decddcb1
+odm/vendor/firmware/ancap64.b06|6a8f6131e4f2dff4bcba854a6981afed3a05ba64
+odm/vendor/firmware/ancap64.b07|2677aab0a4dcb5ecb0aff8439f45eff3e3966543
+odm/vendor/firmware/ancap64.mdt|29028619adbe7128b0c17df2223bca6cca987b16
 
 # Graphics (Adreno firmware)
 vendor/firmware/a660_gmu.bin
